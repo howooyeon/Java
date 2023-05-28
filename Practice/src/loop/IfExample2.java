@@ -8,18 +8,18 @@ public class IfExample2 {
 
 		if (age < 8) {
 			charge = 1000;
-			System.out.println("¹ÌÃëÇÐ ¾Æµ¿ÀÔ´Ï´Ù.");
+			System.out.println("ë¯¸ì·¨í•™ ì•„ë™");
 		} else if (age < 14) {
 			charge = 2000;
-			System.out.println("ÃÊµîÇÐ»ýÀÔ´Ï´Ù.");
+			System.out.println("ì´ˆë“±í•™ìƒ ìž…ë‹ˆë‹¤");
 		} else if (age < 20) {
 			charge = 2500;
-			System.out.println("Áß, °íµîÇÐ»ýÀÔ´Ï´Ù.");
+			System.out.println("ì²­ì†Œë…„ ìž…ë‹ˆë‹¤.");
 		} else {
 			charge = 3000;
-			System.out.println("¼ºÀÎÀÔ´Ï´Ù.");
+			System.out.println("ì„±ì¸ìž…ë‹ˆë‹¤");
 		}
 		
-		System.out.println("ÀÔÀå·á´Â " + charge + " ÀÔ´Ï´Ù.");
+		System.out.println("ìž…ìž¥ë£ŒëŠ” " + charge + " ìž…ë‹ˆë‹¤.");
 	}
 }

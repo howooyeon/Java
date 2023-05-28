@@ -5,9 +5,9 @@ public class IfExample1_1 {
 	public static void main(String[] args) {
 		char gender = 'F';
 		if (gender == 'F') {
-			System.out.println("¿©¼ºÀÔ´Ï´Ù.");
+			System.out.println("ì—¬ìì…ë‹ˆë‹¤");
 		} else {
-			System.out.println("³²¼ºÀÔ´Ï´Ù.");
+			System.out.println("ë‚¨ìì…ë‹ˆë‹¤");
 		}
 	}
 }

@@ -5,34 +5,32 @@ import java.util.Scanner;
 public class If_Practice {
 
 	public static void main(String[] args) {
-		/*¼ºÀû¿¡ µû¶ó ÇĞÁ¡ ºÎ¿©ÇÏ±â
-		 * 90~100 a
-		 * 80~89 b
-		 * 70~79 c
-		 * 60~69 d
-		 * else f
+		/*
+		 * 90~100 a 80~89 b 70~79 c 60~69 d else f
 		 */
+		
+		char grade;
+		
 		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("ÀÌ¹ø ÇĞ±â Á¡¼ö´Â ¸î Á¡ÀÔ´Ï±î? : ");
-		int grade = sc.nextInt();	
-		
-		if(grade <= 90) {
-			System.out.println(grade + "Á¡Àº AÀÔ´Ï´Ù.");
-		}
-		else if(grade <= 80) {
-			System.out.println(grade + "Á¡Àº BÀÔ´Ï´Ù.");
-		}
-		else if(grade <= 70) {
-			System.out.println(grade + "Á¡Àº CÀÔ´Ï´Ù.");
-		}
-		else if(grade <= 60) {
-			System.out.println(grade + "Á¡Àº DÀÔ´Ï´Ù.");
-		}
-		else {
-			System.out.println(grade + "Á¡Àº FÀÔ´Ï´Ù.");
-		}
-		System.out.println("");
-	}
 
+		System.out.print("ì´ë²ˆ í•™ê¸° ëª‡ì ì…ë‹ˆê¹Œ? : ");
+	
+		int score = sc.nextInt();
+
+		if (score >= 90) {
+			grade = 'A';
+		} else if (score >= 80) {
+			grade = 'B';
+		} else if (score >= 70) {
+			grade = 'C';
+		} else if (score >= 60) {
+		    grade = 'D';
+		} else {
+			grade = 'F';
+		}
+		sc.close();
+		
+		System.out.println(score + "ì ì€ " + grade + " ì…ë‹ˆë‹¤.");
+
+	}
 }
