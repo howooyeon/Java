@@ -6,7 +6,14 @@ public class Student {
 	int grade;
 	String address;
 	
-	public void showStudentInfo() {
-		System.out.println(studentName+ "," + address);
+	/*public void showStudentInfo() {
+		System.out.println(studentName+ "," + address); } */
+	
+	public String getstudentName() {
+		return studentName;
+	}
+	
+	public void setstudentName(String name) {
+		studentName = name;
 	}
 }
