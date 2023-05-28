@@ -6,7 +6,7 @@ public class BreakExample2 {
 		int sum = 0;
 		int num = 0;
 
-		for (num = 0; ; num++) {
+		for (num = 0;; num++) {
 			sum += num;
 			if (sum >= 100)
 				break;
