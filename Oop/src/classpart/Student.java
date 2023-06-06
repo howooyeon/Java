@@ -30,10 +30,11 @@ public class Student {
 		System.out.println(studentName+ "," + address); } */
 	
 	public String getstudentName() {
-		return studentName;
+		return studentName; // 학생 이름을 반환하는 메서드
 	}
 	
 	public void setstudentName(String name) {
 		studentName = name;
 	}
+	
 }
