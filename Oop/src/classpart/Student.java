@@ -1,6 +1,26 @@
 package classpart;
 
 public class Student {
+	
+	/*
+	 * 학생 클래스 만들기
+	 * (접근제어자) class 클래스이름 {
+	 * 		멤버변수;
+	 * 
+	 * int studentID;
+	 * String studentName;
+	 * int grade;
+	 * String address;
+	 * 
+	 * 		메서드;
+	 * 
+	 * public void showStudentInfo() {
+	 * System.out.println(StudentName + ","+ address)
+	 * 		}
+	 * }
+	 * 
+	 */
+	
 	int StudentID;
 	String studentName;
 	int grade;

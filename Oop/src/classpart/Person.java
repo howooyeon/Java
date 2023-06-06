@@ -6,4 +6,5 @@ public class Person {
 	double weight;
 	char gender;
 	boolean married;
+	
 }
